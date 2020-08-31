@@ -14,13 +14,11 @@ const List = () => {
 
     let content = (
             <Fragment>
-                <User/>
-                <User/>
-                <User/>
-                <User/>
-                <User/>
-                <User/>
-                <User/> 
+                <User name="Gabriel Silva Gaspar" email="gabriel.sgaspar@yahoo.com.br" imgUrl="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg" />
+                <User name="Gabriel Silva Gaspar" email="gabriel.sgaspar@yahoo.com.br" imgUrl="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg" />
+                <User name="Gabriel Silva Gaspar" email="gabriel.sgaspar@yahoo.com.br" imgUrl="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg" />
+                <User name="Gabriel Silva Gaspar" email="gabriel.sgaspar@yahoo.com.br" imgUrl="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg" />
+                <User name="Gabriel Silva Gaspar" email="gabriel.sgaspar@yahoo.com.br" imgUrl="https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg" />
             </Fragment>
     );
 
