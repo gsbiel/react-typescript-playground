@@ -1,3 +1,9 @@
 .header{
-    color:#dbcbbd;
+    width:80%;
+    background-color: #c87941;
+}
+
+.header-title{
+    color:#290001;
+    text-align: center;
 }
