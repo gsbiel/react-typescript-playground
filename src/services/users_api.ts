@@ -10,7 +10,7 @@ export class APIData {
 
     public static fetchUserData = async (): Promise<DataApiResponse | undefined>  => {
         try{
-            const response = await APIData.api.get("/users");
+            const response = await APIData.api.get("/users?per_page=12");
             // console.log(response.data)
             return {
                 page: response.data.page,

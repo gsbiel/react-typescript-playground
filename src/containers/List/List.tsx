@@ -44,7 +44,7 @@ const List = () => {
             <div className="main-section">
                 {content}  
             </div>
-            <Footer current={listData?.page ? listData.page : 99} max={listData?.total_pages ? listData.total_pages : 99} />   
+            <Footer total={listData?.total ? listData.total : 99} />   
         </div>    
     );
 };
