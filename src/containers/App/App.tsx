@@ -1,8 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import logo from '../../logo.svg';
 import './App.css';
 
 const App = () => {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -12,14 +14,12 @@ const App = () => {
         </p>
         <p>
           Clique&nbsp;
-          <a
+          <Link
             className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
+            to="/users"
           >
             aqui
-          </a>
+          </Link>
           &nbsp; para acessar a lista.
         </p>
       </header>
